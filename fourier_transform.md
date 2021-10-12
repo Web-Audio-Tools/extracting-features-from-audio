@@ -6,8 +6,7 @@ In \[1\]:
 
 [← Back to Index](index.html)
 
-Fourier Transform<a href="#Fourier-Transform" class="anchor-link">Â¶</a>
-========================================================================
+# Fourier Transform<a href="#Fourier-Transform" class="anchor-link">Â¶</a>
 
 Let's download an audio file:
 
@@ -36,12 +35,11 @@ Out\[4\]:
 
 Your browser does not support the audio element.
 
-Fourier Transform<a href="#Fourier-Transform" class="anchor-link">Â¶</a>
-------------------------------------------------------------------------
+## Fourier Transform<a href="#Fourier-Transform" class="anchor-link">Â¶</a>
 
-The *Fourier Transform* ([Wikipedia](https://en.wikipedia.org/wiki/Fourier_transform)) is one of the most fundamental operations in applied mathematics and signal processing.
+The _Fourier Transform_ ([Wikipedia](https://en.wikipedia.org/wiki/Fourier_transform)) is one of the most fundamental operations in applied mathematics and signal processing.
 
-It transforms our time-domain signal into the *frequency domain*. Whereas the time domain expresses our signal as a sequence of samples, the frequency domain expresses our signal as a *superposition of sinusoids* of varying magnitudes, frequencies, and phase offsets.
+It transforms our time-domain signal into the _frequency domain_. Whereas the time domain expresses our signal as a sequence of samples, the frequency domain expresses our signal as a _superposition of sinusoids_ of varying magnitudes, frequencies, and phase offsets.
 
 To compute a Fourier transform in NumPy or SciPy, use [`scipy.fft`](http://docs.scipy.org/doc/scipy/reference/generated/scipy.fftpack.fft.html#scipy.fftpack.fft):
 

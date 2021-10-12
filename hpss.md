@@ -8,8 +8,7 @@ In \[3\]:
 
 [← Back to Index](index.html)
 
-Harmonic-Percussive Source Separation<a href="#Harmonic-Percussive-Source-Separation" class="anchor-link">Â¶</a>
-================================================================================================================
+# Harmonic-Percussive Source Separation<a href="#Harmonic-Percussive-Source-Separation" class="anchor-link">Â¶</a>
 
 Load two files: one harmonic, and one percussive.
 

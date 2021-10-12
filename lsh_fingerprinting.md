@@ -1,5 +1,4 @@
-Music Fingerprinting using Locality Sensitive Hashing<a href="#Music-Fingerprinting-using-Locality-Sensitive-Hashing" class="anchor-link">¶</a>
-===============================================================================================================================================
+# Music Fingerprinting using Locality Sensitive Hashing<a href="#Music-Fingerprinting-using-Locality-Sensitive-Hashing" class="anchor-link">¶</a>
 
 This notebook shows a simple system for performing retrieval of musical tracks using LSH.
 
@@ -63,7 +62,7 @@ Out\[32\]:
 In \[33\]:
 
     class Table:
-        
+
         def __init__(self, hash_size, dim):
             self.table = dict()
             self.hash_size = hash_size
@@ -89,18 +88,18 @@ In \[33\]:
 In \[34\]:
 
     class LSH:
-        
+
         def __init__(self, dim):
             self.num_tables = 4
             self.hash_size = 8
             self.tables = list()
             for i in range(self.num_tables):
                 self.tables.append(Table(self.hash_size, dim))
-        
+
         def add(self, vecs, label):
             for table in self.tables:
                 table.add(vecs, label)
-        
+
         def query(self, vecs):
             results = list()
             for table in self.tables:
@@ -114,7 +113,7 @@ In \[34\]:
 In \[35\]:
 
     class MusicSearch:
-        
+
         def __init__(self, training_files):
             self.frame_size = 4096
             self.hop_size = 4000
@@ -124,14 +123,14 @@ In \[35\]:
             self.num_features_in_file = dict()
             for f in self.training_files:
                 self.num_features_in_file[f] = 0
-                    
+
         def train(self):
             for filepath in self.training_files:
                 x, fs = librosa.load(filepath)
                 features = librosa.feature.chromagram(x, fs, n_fft=self.frame_size, hop_length=self.hop_size).T
                 self.lsh.add(features, filepath)
                 self.num_features_in_file[filepath] += len(features)
-                    
+
         def query(self, filepath):
             x, fs = librosa.load(filepath)
             features = librosa.feature.chromagram(x, fs, n_fft=self.frame_size, hop_length=self.hop_size).T
@@ -226,5 +225,3 @@ In \[40\]:
     ../train/brahms_s1_1_perlman_06.wav 17.8035714286
 
 In \[38\]:
-
-     

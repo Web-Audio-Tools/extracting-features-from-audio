@@ -4,8 +4,7 @@ In \[1\]:
 
 [← Back to Index](index.html)
 
-Sheet Music Representations<a href="#Sheet-Music-Representations" class="anchor-link">Â¶</a>
-============================================================================================
+# Sheet Music Representations<a href="#Sheet-Music-Representations" class="anchor-link">Â¶</a>
 
 Music can be represented in many different ways. The printed, visual form of a musical work is called a **score** or **sheet music**. For example, here is a sheet music excerpt from Mozart Piano Sonata No. 11 K. 331:
 
@@ -23,7 +22,7 @@ Out\[3\]:
 
 Sheet music consists of **notes**. A note has several properties including pitch, timbre, loudness, and duration.
 
-**Pitch** ([Wikipedia](https://en.wikipedia.org/wiki/Pitch_(music)) is a perceptual property that indicates how "high" or "low" a note sounds. Pitch is closely related to the fundamental frequency sounded by the note, although fundamental frequency is a physical property of the sound wave.
+**Pitch** ([Wikipedia](<https://en.wikipedia.org/wiki/Pitch_(music)>) is a perceptual property that indicates how "high" or "low" a note sounds. Pitch is closely related to the fundamental frequency sounded by the note, although fundamental frequency is a physical property of the sound wave.
 
 An **octave** ([Wikipedia](https://en.wikipedia.org/wiki/Octave)) is an interval between two notes where the higher note is twice the fundamental frequency of the lower note. For example, an A at 440 Hz and an A at 880 Hz are separated by one octave. Here are two Cs separated by one octave:
 

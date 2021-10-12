@@ -1,14 +1,12 @@
 [← Back to Index](index.html)
 
-Evaluation using `mir_eval`<a href="#Evaluation-using-mir_eval" class="anchor-link">¶</a>
-=========================================================================================
+# Evaluation using `mir_eval`<a href="#Evaluation-using-mir_eval" class="anchor-link">¶</a>
 
 `mir_eval` ([documentation](http://craffel.github.io/mir_eval/), [paper](http://colinraffel.com/publications/ismir2014mir_eval.pdf)) is a Python library containing evaluation functions for a variety of common audio and music processing tasks.
 
 `mir_eval` was primarily created by Colin Raffel. This notebook was created by Brian McFee and edited by Steve Tjoa.
 
-Why `mir_eval`?<a href="#Why-mir_eval?" class="anchor-link">¶</a>
------------------------------------------------------------------
+## Why `mir_eval`?<a href="#Why-mir_eval?" class="anchor-link">¶</a>
 
 Most tasks in MIR are complicated. Evaluation is also complicated!
 
@@ -16,23 +14,21 @@ Any given task has many ways to evaluate a system. There is no one right away.
 
 For example, here are issues to consider when choosing an evaluation method:
 
--   event matching
--   time padding
--   tolerance windows
--   vocabulary alignment
+- event matching
+- time padding
+- tolerance windows
+- vocabulary alignment
 
-`mir_eval` tasks and submodules<a href="#mir_eval-tasks-and-submodules" class="anchor-link">¶</a>
--------------------------------------------------------------------------------------------------
+## `mir_eval` tasks and submodules<a href="#mir_eval-tasks-and-submodules" class="anchor-link">¶</a>
 
--   onset, tempo, beat
--   chord, key
--   melody, multipitch
--   transcription
--   segment, hierarchy, pattern
--   separation (like `bss_eval` in Matlab)
+- onset, tempo, beat
+- chord, key
+- melody, multipitch
+- transcription
+- segment, hierarchy, pattern
+- separation (like `bss_eval` in Matlab)
 
-Install `mir_eval`<a href="#Install-mir_eval" class="anchor-link">¶</a>
------------------------------------------------------------------------
+## Install `mir_eval`<a href="#Install-mir_eval" class="anchor-link">¶</a>
 
     pip install mir_eval
 
@@ -40,10 +36,9 @@ If that doesn't work:
 
     pip install --no-deps mir_eval
 
-More than metrics<a href="#More-than-metrics" class="anchor-link">¶</a>
------------------------------------------------------------------------
+## More than metrics<a href="#More-than-metrics" class="anchor-link">¶</a>
 
-mir\_eval has tools for display and sonification.
+mir_eval has tools for display and sonification.
 
 In \[38\]:
 
@@ -52,7 +47,7 @@ In \[38\]:
 
 Common plots: `events`, `labeled_intervals`
 
-pitch, multipitch, piano\_roll segments, hierarchy, separation
+pitch, multipitch, piano_roll segments, hierarchy, separation
 
 ### Example: Events<a href="#Example:-Events" class="anchor-link">¶</a>
 

@@ -1,10 +1,8 @@
 [← Back to Index](index.html)
 
-Genre Recognition<a href="#Genre-Recognition" class="anchor-link">¶</a>
-=======================================================================
+# Genre Recognition<a href="#Genre-Recognition" class="anchor-link">¶</a>
 
-Load Audio<a href="#Load-Audio" class="anchor-link">¶</a>
----------------------------------------------------------
+## Load Audio<a href="#Load-Audio" class="anchor-link">¶</a>
 
 Load 30 seconds of an audio file:
 
@@ -93,8 +91,7 @@ Out\[13\]:
 
 In what ways do the time-domain waveform and spectrogram differ between the two files? What differences in musical attributes might this reflect? What additional insights are gained from plotting the spectrogram?
 
-Extract Features<a href="#Extract-Features" class="anchor-link">¶</a>
----------------------------------------------------------------------
+## Extract Features<a href="#Extract-Features" class="anchor-link">¶</a>
 
 For each segment, compute the MFCCs. Experiment with `n_mfcc` to select a different number of coefficients, e.g. 12.
 
@@ -210,8 +207,7 @@ Out\[26\]:
            1.66052301, 1.65450649, 1.50051709, 1.2635102 , 1.31561208,
            1.64746289, 1.63874381])
 
-Train a Classifier<a href="#Train-a-Classifier" class="anchor-link">¶</a>
--------------------------------------------------------------------------
+## Train a Classifier<a href="#Train-a-Classifier" class="anchor-link">¶</a>
 
 Concatenate all of the scaled feature vectors into one feature table.
 
@@ -261,8 +257,7 @@ Out\[32\]:
       max_iter=-1, probability=False, random_state=None, shrinking=True,
       tol=0.001, verbose=False)
 
-Run the Classifier<a href="#Run-the-Classifier" class="anchor-link">¶</a>
--------------------------------------------------------------------------
+## Run the Classifier<a href="#Run-the-Classifier" class="anchor-link">¶</a>
 
 To test the classifier, we will extract an unused 10-second segment from the earlier audio fields as test excerpts:
 
@@ -450,8 +445,7 @@ Out\[56\]:
 
     1.0
 
-Analysis in Pandas<a href="#Analysis-in-Pandas" class="anchor-link">¶</a>
--------------------------------------------------------------------------
+## Analysis in Pandas<a href="#Analysis-in-Pandas" class="anchor-link">¶</a>
 
 Read the MFCC features from the first test audio excerpt into a data frame:
 

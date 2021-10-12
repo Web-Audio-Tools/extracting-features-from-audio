@@ -1,7 +1,6 @@
 [← Back to Index](index.html)
 
-Real-time Spectrogram<a href="#Real-time-Spectrogram" class="anchor-link">¶</a>
-===============================================================================
+# Real-time Spectrogram<a href="#Real-time-Spectrogram" class="anchor-link">¶</a>
 
 Out\[1\]:
 

@@ -1,7 +1,6 @@
 [← Back to Index](index.html)
 
-Longest Common Subsequence<a href="#Longest-Common-Subsequence" class="anchor-link">Â¶</a>
-==========================================================================================
+# Longest Common Subsequence<a href="#Longest-Common-Subsequence" class="anchor-link">Â¶</a>
 
 To motivate dynamic time warping, let's look at a classic dynamic programming problem: find the **longest common subsequence (LCS)** of two strings ([Wikipedia](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)). A subsequence is not required to maintain consecutive positions in the original strings, but they must retain their order. Examples:
 
@@ -66,10 +65,10 @@ In \[4\]:
     def lcs_table(x, y):
         nx = len(x)
         ny = len(y)
-        
+
         # Initialize a table.
         table = [[0 for _ in range(ny+1)] for _ in range(nx+1)]
-        
+
         # Fill the table.
         for i in range(1, nx+1):
             for j in range(1, ny+1):
@@ -77,7 +76,7 @@ In \[4\]:
                     table[i][j] = 1 + table[i-1][j-1]
                 else:
                     table[i][j] = max(table[i-1][j], table[i][j-1])
-        return table                      
+        return table
 
 Let's visualize this table:
 

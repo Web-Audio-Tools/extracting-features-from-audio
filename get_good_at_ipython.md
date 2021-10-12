@@ -1,7 +1,6 @@
 [← Back to Index](index.html)
 
-Jupyter Basics<a href="#Jupyter-Basics" class="anchor-link">Â¶</a>
-==================================================================
+# Jupyter Basics<a href="#Jupyter-Basics" class="anchor-link">Â¶</a>
 
 You are looking at a **Jupyter Notebook**, an interactive Python shell inside of a web browser. With it, you can run individual Python commands and immediately view their output. It's basically like the Matlab Desktop or Mathematica Notebook but for Python.
 
@@ -9,17 +8,15 @@ To start an interactive Jupyter notebook on your local machine, read the [instru
 
 If you are reading this notebook on <http://musicinformationretrieval.com>, you are viewing a read-only version of the notebook, not an interactive version. Therefore, the instructions below do not apply.
 
-Tour<a href="#Tour" class="anchor-link">Â¶</a>
-----------------------------------------------
+## Tour<a href="#Tour" class="anchor-link">Â¶</a>
 
-If you're new, we recommend that you take the *User Interface Tour* in the Help Menu above.
+If you're new, we recommend that you take the _User Interface Tour_ in the Help Menu above.
 
-Cells<a href="#Cells" class="anchor-link">Â¶</a>
-------------------------------------------------
+## Cells<a href="#Cells" class="anchor-link">Â¶</a>
 
-A Jupyter Notebook is comprised of **cells**. Cells are just small units of code or text. For example, the text that you are reading is inside a *Markdown* cell. (More on that later.)
+A Jupyter Notebook is comprised of **cells**. Cells are just small units of code or text. For example, the text that you are reading is inside a _Markdown_ cell. (More on that later.)
 
-*Code* cells allow you to edit, execute, and analyze small portions of Python code at a time. Here is a code cell:
+_Code_ cells allow you to edit, execute, and analyze small portions of Python code at a time. Here is a code cell:
 
 In \[1\]:
 
@@ -29,32 +26,29 @@ Out\[1\]:
 
     3
 
-Modes<a href="#Modes" class="anchor-link">Â¶</a>
-------------------------------------------------
+## Modes<a href="#Modes" class="anchor-link">Â¶</a>
 
 The Jupyter Notebook has two different keyboard input modes.
 
-In **Edit Mode**, you type code/text into a cell. Edit Mode is indicated by a *green* cell border.
+In **Edit Mode**, you type code/text into a cell. Edit Mode is indicated by a _green_ cell border.
 
 To enter Edit Mode from Command Mode, press `Enter`. You can also double-click on a cell.
 
 To execute the code inside of a cell and move to the next cell, press **`Shift-Enter`**. (`Ctrl-Enter` will run the current cell without moving to the next cell. This is useful for rapidly tweaking the current cell.)
 
-In **Command Mode**, you can perform notebook level actions such as navigating among cells, selecting cells, moving cells, saving notebooks, displaying help. Command Mode is indicated by a *grey* cell border.
+In **Command Mode**, you can perform notebook level actions such as navigating among cells, selecting cells, moving cells, saving notebooks, displaying help. Command Mode is indicated by a _grey_ cell border.
 
 To enter Command Mode from Edit Mode, press **`Esc`**. Other commands can also enter Command Mode, e.g. `Shift-Enter`.
 
-To display the Help Menu from Command Mode, press **`h`**. *Use it often*; `h` is your best friend.
+To display the Help Menu from Command Mode, press **`h`**. _Use it often_; `h` is your best friend.
 
-Saving<a href="#Saving" class="anchor-link">Â¶</a>
---------------------------------------------------
+## Saving<a href="#Saving" class="anchor-link">Â¶</a>
 
 Your code goes directly into a Jupyter notebook. To save your changes, click on the "Save" icon in the menu bar, or type **`s`** in command mode.
 
 If this notebook is in a Git repo, use `git checkout -- <file>` to revert a saved edit.
 
-Writing Text in Markdown<a href="#Writing-Text-in-Markdown" class="anchor-link">Â¶</a>
---------------------------------------------------------------------------------------
+## Writing Text in Markdown<a href="#Writing-Text-in-Markdown" class="anchor-link">Â¶</a>
 
 Markdown is simply a fancy way of formatting plain text. It is a markup language that is a superset of HTML. The Markdown specification is found here: <http://daringfireball.net/projects/markdown/basics/>
 
@@ -62,8 +56,7 @@ A cell may contain Python code or Markdown code. To convert any Python cell to a
 
 For headings, we recommend that you use Jupyter's keyboard shortcuts. To change the text in a cell to a level-3 header, simply press `3`. For similar commands, press **`h`** to view the Help menu.
 
-Writing Text in $\\LaTeX$<a href="#Writing-Text-in-$\LaTeX$" class="anchor-link">Â¶</a>
----------------------------------------------------------------------------------------
+## Writing Text in $\\LaTeX$<a href="#Writing-Text-in-$\LaTeX$" class="anchor-link">Â¶</a>
 
 In a Markdown cell, you can also use $\\LaTeX$ syntax. Example input:
 
@@ -71,10 +64,9 @@ In a Markdown cell, you can also use $\\LaTeX$ syntax. Example input:
 
 Output:
 
-$$ \\max\_{||w||=1} \\sum\_{i=1}^{N} \\big| \\langle w, x\_i - m \\rangle \\big|^2 $$
+$$ \\max\_{||w||=1} \\sum\_{i=1}^{N} \\big| \\langle w, x_i - m \\rangle \\big|^2 $$
 
-Imports<a href="#Imports" class="anchor-link">Â¶</a>
-----------------------------------------------------
+## Imports<a href="#Imports" class="anchor-link">Â¶</a>
 
 You may encounter the following imports while using this website:
 
@@ -97,8 +89,7 @@ In \[3\]:
 
     import numpy, scipy, pandas
 
-Tab Autocompletion<a href="#Tab-Autocompletion" class="anchor-link">Â¶</a>
---------------------------------------------------------------------------
+## Tab Autocompletion<a href="#Tab-Autocompletion" class="anchor-link">Â¶</a>
 
 Tab autocompletion works in Command Window and the Editor. After you type a few letters, press the `Tab` key and a popup will appear and show you all of the possible completions, including variable names and functions. This prevents you from mistyping the names of variables -- a big time saver!
 
@@ -111,8 +102,7 @@ In \[ \]:
     # Press Tab at the end of the following line
     scipy.sin
 
-Inline Documentation<a href="#Inline-Documentation" class="anchor-link">Â¶</a>
-------------------------------------------------------------------------------
+## Inline Documentation<a href="#Inline-Documentation" class="anchor-link">Â¶</a>
 
 To get help on a certain Python object, type `?` after the object name, and run the cell:
 
@@ -123,13 +113,11 @@ In \[5\]:
 
 In addition, if you press `Shift-Tab` in a code cell, a help dialog will also appear. For example, in the cell above, place your cursor after `int`, and press `Shift-Tab`. Press `Shift-Tab` twice to expand the help dialog.
 
-More Documentation: NumPy, SciPy, Matplotlib<a href="#More-Documentation:-NumPy,-SciPy,-Matplotlib" class="anchor-link">Â¶</a>
-------------------------------------------------------------------------------------------------------------------------------
+## More Documentation: NumPy, SciPy, Matplotlib<a href="#More-Documentation:-NumPy,-SciPy,-Matplotlib" class="anchor-link">Â¶</a>
 
 In the top menu bar, click on Help, and you'll find a prepared set of documentation links for IPython, NumPy, SciPy, Matplotlib, and Pandas.
 
-Experimenting<a href="#Experimenting" class="anchor-link">Â¶</a>
-----------------------------------------------------------------
+## Experimenting<a href="#Experimenting" class="anchor-link">Â¶</a>
 
 Code cells are meant to be interactive. We may present you with several options for experimentation, e.g. choices of variables, audio files, and algorithms. For example, if you see a cell like this, then try all of the possible options by uncommenting the desired line(s) of code. (To run the cell, select "Cell" and "Run" from the top menu, or press `Shift-Enter`.)
 

@@ -7,12 +7,11 @@ In \[1\]:
 
 [← Back to Index](index.html)
 
-Autocorrelation<a href="#Autocorrelation" class="anchor-link">¶</a>
-===================================================================
+# Autocorrelation<a href="#Autocorrelation" class="anchor-link">¶</a>
 
 The [autocorrelation](http://en.wikipedia.org/wiki/Autocorrelation) of a signal describes the similarity of a signal against a time-shifted version of itself. For a signal $x$, the autocorrelation $r$ is:
 
-$$ r(k) = \\sum\_n x(n) x(n-k) $$
+$$ r(k) = \\sum_n x(n) x(n-k) $$
 
 In this equation, $k$ is often called the **lag** parameter. $r(k)$ is maximized at $k = 0$ and is symmetric about $k$.
 
@@ -93,8 +92,7 @@ Out\[7\]:
 
 `librosa.autocorrelate` conveniently only keeps one half of the autocorrelation function, since the autocorrelation is symmetric. Also, the `max_size` parameter prevents unnecessary calculations.
 
-Pitch Estimation<a href="#Pitch-Estimation" class="anchor-link">¶</a>
----------------------------------------------------------------------
+## Pitch Estimation<a href="#Pitch-Estimation" class="anchor-link">¶</a>
 
 The autocorrelation is used to find repeated patterns within a signal. For musical signals, a repeated pattern can correspond to a pitch period. We can therefore use the autocorrelation function to estimate the pitch in a musical signal.
 
@@ -187,8 +185,7 @@ Out\[16\]:
 
     1046.5022612023945
 
-Tempo Estimation<a href="#Tempo-Estimation" class="anchor-link">¶</a>
----------------------------------------------------------------------
+## Tempo Estimation<a href="#Tempo-Estimation" class="anchor-link">¶</a>
 
 When perfomed upon a novelty function, an autocorrelation can provide some notion of tempo.
 

@@ -7,18 +7,15 @@ In \[ \]:
 
 [← Back to Index](index.html)
 
-Exercise: Genre Recognition<a href="#Exercise:-Genre-Recognition" class="anchor-link">¶</a>
-===========================================================================================
+# Exercise: Genre Recognition<a href="#Exercise:-Genre-Recognition" class="anchor-link">¶</a>
 
-Goals<a href="#Goals" class="anchor-link">¶</a>
------------------------------------------------
+## Goals<a href="#Goals" class="anchor-link">¶</a>
 
 1.  Extract features from an audio signal.
 2.  Train a genre classifier.
 3.  Use the classifier to classify the genre in a song.
 
-Step 1: Retrieve Audio<a href="#Step-1:-Retrieve-Audio" class="anchor-link">¶</a>
----------------------------------------------------------------------------------
+## Step 1: Retrieve Audio<a href="#Step-1:-Retrieve-Audio" class="anchor-link">¶</a>
 
 Download an audio file onto your local machine.
 
@@ -59,8 +56,7 @@ In \[ \]:
 
     # Your code here:
 
-Step 2: Extract Features<a href="#Step-2:-Extract-Features" class="anchor-link">¶</a>
--------------------------------------------------------------------------------------
+## Step 2: Extract Features<a href="#Step-2:-Extract-Features" class="anchor-link">¶</a>
 
 For each segment, compute the MFCCs. Experiment with `n_mfcc` to select a different number of coefficients, e.g. 12.
 
@@ -123,7 +119,7 @@ In \[ \]:
 In \[ \]:
 
     # Your code here. Load the second audio file in the same manner as the first audio file.
-    # x_busta, fs_busta = 
+    # x_busta, fs_busta =
 
 Listen to the second audio file.
 
@@ -186,8 +182,7 @@ In \[ \]:
 
     mfcc_busta_scaled.std?
 
-Step 3: Train a Classifier<a href="#Step-3:-Train-a-Classifier" class="anchor-link">¶</a>
------------------------------------------------------------------------------------------
+## Step 3: Train a Classifier<a href="#Step-3:-Train-a-Classifier" class="anchor-link">¶</a>
 
 Concatenate all of the scaled feature vectors into one feature table.
 
@@ -222,8 +217,7 @@ In \[ \]:
 
     # Your code here
 
-Step 4: Run the Classifier<a href="#Step-4:-Run-the-Classifier" class="anchor-link">¶</a>
------------------------------------------------------------------------------------------
+## Step 4: Run the Classifier<a href="#Step-4:-Run-the-Classifier" class="anchor-link">¶</a>
 
 To test the classifier, we will extract an unused 10-second segment from the earlier audio fields as test excerpts:
 
@@ -299,8 +293,7 @@ In \[ \]:
 
     # Your code here.
 
-Step 5: Analysis in Pandas<a href="#Step-5:-Analysis-in-Pandas" class="anchor-link">¶</a>
------------------------------------------------------------------------------------------
+## Step 5: Analysis in Pandas<a href="#Step-5:-Analysis-in-Pandas" class="anchor-link">¶</a>
 
 Read the MFCC features from the first test audio excerpt into a data frame:
 
@@ -352,8 +345,7 @@ In \[ \]:
 
     df_busta[11].plot.hist()
 
-Extra Credit<a href="#Extra-Credit" class="anchor-link">¶</a>
--------------------------------------------------------------
+## Extra Credit<a href="#Extra-Credit" class="anchor-link">¶</a>
 
 Create a new genre classifier by repeating the steps above, but this time use training data and test data from your own audio collection representing two or more different genres. For what genres and audio data styles does the classifier work well, and for which (pairs of) genres does the classifier fail?
 

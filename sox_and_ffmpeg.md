@@ -1,7 +1,6 @@
 [← Back to Index](index.html)
 
-SoX<a href="#SoX" class="anchor-link">¶</a>
-===========================================
+# SoX<a href="#SoX" class="anchor-link">¶</a>
 
 [SoX](http://sox.sourceforge.net/) is a command-line utility for audio processing, e.g. convert file format, convert sample rate, remix, trim, pad, normalize, etc.
 
@@ -41,8 +40,7 @@ Pad 1 second of silence to the beginning and 2 seconds of silence to the end:
 
     sox in.wav out.wav pad 1 2
 
-ffmpeg<a href="#ffmpeg" class="anchor-link">¶</a>
-=================================================
+# ffmpeg<a href="#ffmpeg" class="anchor-link">¶</a>
 
 [ffmpeg](https://www.ffmpeg.org/) is a framework to convert among different audio and video file formats. Use `ffmpeg` if you want to convert WAV to MP3.
 
@@ -52,7 +50,7 @@ To install on MacOS:
 
 Convert a WAV file to MP3:
 
-    ffmpeg -i in.wav out.mp3 
+    ffmpeg -i in.wav out.mp3
 
 Down-mix all input channels to mono with a bitrate of 128k:
 

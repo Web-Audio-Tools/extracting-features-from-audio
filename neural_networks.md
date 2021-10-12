@@ -1,12 +1,10 @@
 [← Back to Index](index.html)
 
-Neural Networks<a href="#Neural-Networks" class="anchor-link">¶</a>
-===================================================================
+# Neural Networks<a href="#Neural-Networks" class="anchor-link">¶</a>
 
-Neural networks are a category of machine learning models which have seen a resurgence since 2006. *Deep learning* is the recent area of machine learning which combines many neuron layers (e.g. 20, 50, or more) to form a "deep" neural network. In doing so, a deep neural network can accomplish sophisticated classification tasks that classical machine learning models would find difficult.
+Neural networks are a category of machine learning models which have seen a resurgence since 2006. _Deep learning_ is the recent area of machine learning which combines many neuron layers (e.g. 20, 50, or more) to form a "deep" neural network. In doing so, a deep neural network can accomplish sophisticated classification tasks that classical machine learning models would find difficult.
 
-Keras<a href="#Keras" class="anchor-link">¶</a>
------------------------------------------------
+## Keras<a href="#Keras" class="anchor-link">¶</a>
 
 Keras is a Python package for deep learning which provides an easy-to-use layer of abstraction on top of Theano and Tensorflow.
 
@@ -39,8 +37,7 @@ In \[6\]:
 
     model.compile(loss='binary_crossentropy', optimizer=optimizer)
 
-Example: XOR<a href="#Example:-XOR" class="anchor-link">¶</a>
--------------------------------------------------------------
+## Example: XOR<a href="#Example:-XOR" class="anchor-link">¶</a>
 
 The operation XOR is defined as: `XOR(x, y) = 1 if x != y else 0`
 

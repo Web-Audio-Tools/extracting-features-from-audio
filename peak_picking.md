@@ -7,8 +7,7 @@ In \[1\]:
 
 [← Back to Index](index.html)
 
-Peak Picking<a href="#Peak-Picking" class="anchor-link">¶</a>
-=============================================================
+# Peak Picking<a href="#Peak-Picking" class="anchor-link">¶</a>
 
 Peak picking is the act of locating peaks in a signal. For example, in onset detection, we may want to find peaks in a novelty function. These peaks would correspond to the musical onsets.
 
@@ -153,8 +152,7 @@ Your browser does not support the audio element.
 
 Using the parameters above, we find that the peak picking algorithm seems to have high precision, e.g. few false positives. However, recall can be improved, i.e. it is missing several onsets that actually occur in the audio signal.
 
-Questions<a href="#Questions" class="anchor-link">¶</a>
--------------------------------------------------------
+## Questions<a href="#Questions" class="anchor-link">¶</a>
 
 Adjust the hop length from 512 to 256 or 1024. How does that affect the onset envelope, and consequently, the peak picking?
 

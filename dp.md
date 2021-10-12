@@ -6,13 +6,11 @@ In \[1\]:
 
 [← Back to Index](index.html)
 
-Dynamic Programming<a href="#Dynamic-Programming" class="anchor-link">¶</a>
-===========================================================================
+# Dynamic Programming<a href="#Dynamic-Programming" class="anchor-link">¶</a>
 
 **Dynamic programming** ([Wikipedia](https://en.wikipedia.org/wiki/Dynamic_programming); FMP, p. 137) is a method for solving problems by breaking them into simpler subproblems, each solved only once, and storing their solutions for future reference. The act of storing solutions to subproblems is known as **memoization** ([Wikipedia](https://en.wikipedia.org/wiki/Memoization)).
 
-Example: min coin sum<a href="#Example:-min-coin-sum" class="anchor-link">¶</a>
--------------------------------------------------------------------------------
+## Example: min coin sum<a href="#Example:-min-coin-sum" class="anchor-link">¶</a>
 
 Given a positive value and a list of possible coin values, write a function that determines the minimum number of coins needed to achieve the input value. Example:
 
@@ -33,7 +31,7 @@ Suppose that we use the coin values `[1, 5, 10, 25]`. The recursive solution to 
 
 Suppose `val = 49`. Notice that
 
-    49 = 48 + 1 
+    49 = 48 + 1
     49 = 44 + 5
     49 = 39 + 10
     49 = 24 + 25
@@ -70,7 +68,7 @@ Notice how it takes a little while to compute the answer to `49`? That's because
 
 ### Memoization<a href="#Memoization" class="anchor-link">¶</a>
 
-A better solution is to use *memoization* by storing the answer to previous subproblems and referring to them later:
+A better solution is to use _memoization_ by storing the answer to previous subproblems and referring to them later:
 
 In \[5\]:
 
@@ -80,7 +78,7 @@ In \[5\]:
 
         # Initialize table.
         table = [0 for _ in range(val+1)]
-        
+
         # Dynamic programming.
         for cur_val in range(1, val+1):
             table[cur_val] = 1 + min([table[cur_val-coin] for coin in coins if cur_val-coin >= 0])

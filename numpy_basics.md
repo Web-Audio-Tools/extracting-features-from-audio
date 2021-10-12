@@ -4,13 +4,11 @@ In \[1\]:
 
 [← Back to Index](index.html)
 
-NumPy and SciPy<a href="#NumPy-and-SciPy" class="anchor-link">¶</a>
-===================================================================
+# NumPy and SciPy<a href="#NumPy-and-SciPy" class="anchor-link">¶</a>
 
 The quartet of NumPy, SciPy, Matplotlib, and IPython is a popular combination in the Python world. We will use each of these libraries in this workshop.
 
-Tutorial<a href="#Tutorial" class="anchor-link">¶</a>
------------------------------------------------------
+## Tutorial<a href="#Tutorial" class="anchor-link">¶</a>
 
 [NumPy](http://www.numpy.org) is one of the most popular libraries for numerical computing in the world. It is used in several disciplines including image processing, finance, bioinformatics, and more. This entire workshop is based upon NumPy and its derivatives.
 
@@ -20,8 +18,7 @@ If you are new to NumPy, follow this [NumPy Tutorial](http://wiki.scipy.org/Tent
 
 While there is a [SciPy Tutorial](http://docs.scipy.org/doc/scipy/reference/tutorial/index.html), it isn't critical that you follow it for this workshop.
 
-Special Arrays<a href="#Special-Arrays" class="anchor-link">¶</a>
------------------------------------------------------------------
+## Special Arrays<a href="#Special-Arrays" class="anchor-link">¶</a>
 
 In \[2\]:
 
@@ -74,8 +71,7 @@ In \[8\]:
      [-1.03690426  0.59078457]
      [-2.22983691 -1.70858604]]
 
-Slicing Arrays<a href="#Slicing-Arrays" class="anchor-link">¶</a>
------------------------------------------------------------------
+## Slicing Arrays<a href="#Slicing-Arrays" class="anchor-link">¶</a>
 
 In \[9\]:
 
@@ -124,8 +120,7 @@ In \[15\]:
 
     [9 8 7 6 5 4 3 2 1 0]
 
-Array Arithmetic<a href="#Array-Arithmetic" class="anchor-link">¶</a>
----------------------------------------------------------------------
+## Array Arithmetic<a href="#Array-Arithmetic" class="anchor-link">¶</a>
 
 In \[16\]:
 
@@ -157,8 +152,7 @@ In \[18\]:
      [ 3.18545804  3.18545804]
      [ 1.82532797  1.82532797]]
 
-Boolean Operations<a href="#Boolean-Operations" class="anchor-link">¶</a>
--------------------------------------------------------------------------
+## Boolean Operations<a href="#Boolean-Operations" class="anchor-link">¶</a>
 
 In \[19\]:
 
@@ -174,8 +168,7 @@ In \[20\]:
 
     [ True False False False False False False False False False]
 
-Distance Metrics<a href="#Distance-Metrics" class="anchor-link">¶</a>
----------------------------------------------------------------------
+## Distance Metrics<a href="#Distance-Metrics" class="anchor-link">¶</a>
 
 In \[21\]:
 
@@ -200,10 +193,9 @@ In \[22\]:
     0.0
     1.0
 
-Sorting<a href="#Sorting" class="anchor-link">¶</a>
----------------------------------------------------
+## Sorting<a href="#Sorting" class="anchor-link">¶</a>
 
-NumPy arrays have a method, `sort`, which sorts the array *in-place*.
+NumPy arrays have a method, `sort`, which sorts the array _in-place_.
 
 In \[23\]:
 

@@ -4,13 +4,11 @@ In \[1\]:
 
 [← Back to Index](index.html)
 
-Symbolic Representations<a href="#Symbolic-Representations" class="anchor-link">Â¶</a>
-======================================================================================
+# Symbolic Representations<a href="#Symbolic-Representations" class="anchor-link">Â¶</a>
 
 **Symbolic music representations** comprise any kind of score representation with an explicit encoding of notes or other musical events. These include machine-readable data formats such as MIDI. Any kind of digital data format may be regarded as symbolic since it is based on a finite alphabet of letters or symbols.
 
-Piano-Roll Representations<a href="#Piano-Roll-Representations" class="anchor-link">Â¶</a>
-------------------------------------------------------------------------------------------
+## Piano-Roll Representations<a href="#Piano-Roll-Representations" class="anchor-link">Â¶</a>
 
 Around the late 19th and early 20th centuries, self-playing pianos called **player pianos** became popular. The input for these pianos is a continuous roll of paper with holes punched into it. This paper roll is called a **piano roll**. Performances by famous musicians such as Gustav Mahler, Edvard Grieg, Scott Joplin and George Gershwin have been recorded onto piano rolls.
 
@@ -30,8 +28,7 @@ In \[7\]:
 
     ipd.display( ipd.YouTubeVideo("Kri2jWr08S4", start=11) )
 
-MIDI Representations<a href="#MIDI-Representations" class="anchor-link">Â¶</a>
-------------------------------------------------------------------------------
+## MIDI Representations<a href="#MIDI-Representations" class="anchor-link">Â¶</a>
 
 Another symbolic representation is based on the **MIDI** standard ([Wikipedia](https://en.wikipedia.org/wiki/MIDI)), or Musical Instrument Digital Interface. The advent of MIDI in 1981-83 caused a rapid growth in the electronic musical instrument market.
 
@@ -47,8 +44,7 @@ MIDI subdivides a quarter note into **clock pulses** or **ticks**. For example, 
 
 MIDI can also encode tempo in terms of **beats per minute** (BPM) thus allowing for absolute timing information.
 
-Score Representations<a href="#Score-Representations" class="anchor-link">Â¶</a>
---------------------------------------------------------------------------------
+## Score Representations<a href="#Score-Representations" class="anchor-link">Â¶</a>
 
 **Score representations** encode explicit information about musical symbols such as clefs, time signatures, key signatures, notes, rests, dynamics, etc. However, score representations, the way we define it here, does not include any description of the final visual layout and positioning of these symbols on the page.
 

@@ -8,11 +8,9 @@ In \[1\]:
 
 [← Back to Index](index.html)
 
-Beat Tracking<a href="#Beat-Tracking" class="anchor-link">¶</a>
-===============================================================
+# Beat Tracking<a href="#Beat-Tracking" class="anchor-link">¶</a>
 
-`librosa.beat.beat_track`<a href="#librosa.beat.beat_track" class="anchor-link">¶</a>
--------------------------------------------------------------------------------------
+## `librosa.beat.beat_track`<a href="#librosa.beat.beat_track" class="anchor-link">¶</a>
 
 Load an audio file:
 
@@ -91,8 +89,7 @@ Out\[7\]:
 
     <function __main__.f>
 
-Questions<a href="#Questions" class="anchor-link">¶</a>
--------------------------------------------------------
+## Questions<a href="#Questions" class="anchor-link">¶</a>
 
 Try other audio files:
 

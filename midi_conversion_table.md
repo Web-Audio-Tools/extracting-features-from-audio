@@ -1,13 +1,12 @@
 [← Back to Index](index.html)
 
-MIDI Note to Frequency Conversion Table<a href="#MIDI-Note-to-Frequency-Conversion-Table" class="anchor-link">¶</a>
-===================================================================================================================
+# MIDI Note to Frequency Conversion Table<a href="#MIDI-Note-to-Frequency-Conversion-Table" class="anchor-link">¶</a>
 
--   **note**: note name
--   **midi-ET**: MIDI number, equal temperament
--   **Hertz-ET**: frequency in Hertz, equal temperament
--   **midi-PT**: MIDI number, Pythagorean tuning
--   **Hertz-PT**: frequency in Hertz, Pythagorean tuning
+- **note**: note name
+- **midi-ET**: MIDI number, equal temperament
+- **Hertz-ET**: frequency in Hertz, equal temperament
+- **midi-PT**: MIDI number, Pythagorean tuning
+- **Hertz-PT**: frequency in Hertz, Pythagorean tuning
 
 <table><thead><tr class="header"><th>note</th><th>midi-ET</th><th>Hertz-ET</th><th>midi-PT</th><th>Hertz-PT</th></tr></thead><tbody><tr class="odd"><td>Cb0</td><td>11</td><td>15.434</td><td>10.804</td><td>15.261</td></tr><tr class="even"><td>C0</td><td>12</td><td>16.352</td><td>11.941</td><td>16.296</td></tr><tr class="odd"><td>Db0</td><td>13</td><td>17.324</td><td>12.844</td><td>17.168</td></tr><tr class="even"><td>C#0</td><td>13</td><td>17.324</td><td>13.078</td><td>17.402</td></tr><tr class="odd"><td>D0</td><td>14</td><td>18.354</td><td>13.980</td><td>18.333</td></tr><tr class="even"><td>Eb0</td><td>15</td><td>19.445</td><td>14.883</td><td>19.314</td></tr><tr class="odd"><td>D#0</td><td>15</td><td>19.445</td><td>15.117</td><td>19.578</td></tr><tr class="even"><td>Fb0</td><td>16</td><td>20.602</td><td>15.785</td><td>20.347</td></tr><tr class="odd"><td>E0</td><td>16</td><td>20.602</td><td>16.020</td><td>20.625</td></tr><tr class="even"><td>F0</td><td>17</td><td>21.827</td><td>16.922</td><td>21.728</td></tr><tr class="odd"><td>E#0</td><td>17</td><td>21.827</td><td>17.156</td><td>22.025</td></tr><tr class="even"><td>Gb0</td><td>18</td><td>23.125</td><td>17.824</td><td>22.891</td></tr><tr class="odd"><td>F#0</td><td>18</td><td>23.125</td><td>18.059</td><td>23.203</td></tr><tr class="even"><td>G0</td><td>19</td><td>24.5</td><td>18.961</td><td>24.444</td></tr><tr class="odd"><td>Ab0</td><td>20</td><td>25.957</td><td>19.863</td><td>25.752</td></tr><tr class="even"><td>G#0</td><td>20</td><td>25.957</td><td>20.098</td><td>26.104</td></tr></tbody></table>
 

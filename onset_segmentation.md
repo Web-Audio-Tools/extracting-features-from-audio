@@ -8,8 +8,7 @@ In \[1\]:
 
 [← Back to Index](index.html)
 
-Onset-based Segmentation with Backtracking<a href="#Onset-based-Segmentation-with-Backtracking" class="anchor-link">Â¶</a>
-==========================================================================================================================
+# Onset-based Segmentation with Backtracking<a href="#Onset-based-Segmentation-with-Backtracking" class="anchor-link">Â¶</a>
 
 [`librosa.onset.onset_detect`](http://librosa.github.io/librosa/generated/librosa.onset.onset_detect.html#librosa.onset.onset_detect) works by finding peaks in a spectral novelty function. However, these peaks may not actually coincide with the initial rise in energy or how we perceive the beginning of a musical note.
 
@@ -121,8 +120,7 @@ Your browser does not support the audio element.
 
 As we hear, the little glitch between segments occurs because the segment boundaries occur during the attack, not before the attack.
 
-`librosa.onset.onset_backtrack`<a href="#librosa.onset.onset_backtrack" class="anchor-link">Â¶</a>
---------------------------------------------------------------------------------------------------
+## `librosa.onset.onset_backtrack`<a href="#librosa.onset.onset_backtrack" class="anchor-link">Â¶</a>
 
 We can avoid this glitch by backtracking from the detected onsets.
 
@@ -179,8 +177,7 @@ Your browser does not support the audio element.
 
 While listening, notice now the segments are perfectly segmented.
 
-Questions<a href="#Questions" class="anchor-link">Â¶</a>
---------------------------------------------------------
+## Questions<a href="#Questions" class="anchor-link">Â¶</a>
 
 Try with other audio files:
 

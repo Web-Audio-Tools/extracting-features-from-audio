@@ -6,8 +6,7 @@ In \[1\]:
 
 [← Back to Index](index.html)
 
-Principal Component Analysis<a href="#Principal-Component-Analysis" class="anchor-link">¶</a>
-=============================================================================================
+# Principal Component Analysis<a href="#Principal-Component-Analysis" class="anchor-link">¶</a>
 
 Download a file:
 

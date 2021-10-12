@@ -7,15 +7,13 @@ In \[1\]:
 
 [← Back to Index](index.html)
 
-Constant-Q Transform and Chroma<a href="#Constant-Q-Transform-and-Chroma" class="anchor-link">¶</a>
-===================================================================================================
+# Constant-Q Transform and Chroma<a href="#Constant-Q-Transform-and-Chroma" class="anchor-link">¶</a>
 
-Constant-Q Transform<a href="#Constant-Q-Transform" class="anchor-link">¶</a>
------------------------------------------------------------------------------
+## Constant-Q Transform<a href="#Constant-Q-Transform" class="anchor-link">¶</a>
 
 Unlike the Fourier transform, but similar to the mel scale, the constant-Q transform ([Wikipedia](http://en.wikipedia.org/wiki/Constant_Q_transform)) uses a logarithmically spaced frequency axis. For more information, read the original paper:
 
--   [Judith C. Brown, "Calculation of a constant Q spectral transform," J. Acoust. Soc. Am., 89(1):425–434, 1991.](http://academics.wellesley.edu/Physics/brown/pubs/cq1stPaper.pdf)
+- [Judith C. Brown, "Calculation of a constant Q spectral transform," J. Acoust. Soc. Am., 89(1):425–434, 1991.](http://academics.wellesley.edu/Physics/brown/pubs/cq1stPaper.pdf)
 
 Let's load a file:
 
@@ -52,8 +50,7 @@ Out\[4\]:
 
 Note how each frequency bin corresponds to one MIDI pitch number.
 
-Chroma<a href="#Chroma" class="anchor-link">¶</a>
--------------------------------------------------
+## Chroma<a href="#Chroma" class="anchor-link">¶</a>
 
 A **chroma vector** ([Wikipedia](https://en.wikipedia.org/wiki/Chroma_feature)) (FMP, p. 123) is a typically a 12-element feature vector indicating how much energy of each pitch class, {C, C\#, D, D\#, E, ..., B}, is present in the signal.
 
